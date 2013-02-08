@@ -1,0 +1,148 @@
+<html>
+	<head>
+		<title> Deniz's Amazing Style Sheet </title>
+		<meta name="description" content="Style Sheet that Uses as Many HTML Tags as Possible">
+		<meta name="keywords" content="HTML, CSS, HTML5">
+		<meta name="author" content="Deniz Kahramaner">
+		<meta charset="UTF-8">
+	</head>
+
+	<body>
+		<header>
+			<h1>Welcome to Deniz's Style Sheet Page</h1>
+			A place where Deniz experiments with many HTML 5 tags.
+		</header>
+		<nav>
+			<h4> Sample navigation menu </h4> 
+			<a href="http://www.denizkahramaner.com">Homepage</a> |
+			<a href="http://www.github.com/denizkahramaner">Github</a> 
+		</nav>
+		<hr>
+		<section>
+			<p> I study at Stanford university </p>
+			<aside> <h4> Stanford University </h4>
+				<p>	Stanford University is an entrepreneurial and prestigious university in Palo Alto.</p>
+			</aside>
+		</section>
+		Some facts about me:
+		<ol> 
+			<li> I am a Master's student at Stanford </li>
+			<li> I am proficient in <strong> Java, Ruby, <wbr>C++, C, Matlab, Phython </strong></li>
+			<li> I am interested in Human-Computer Interaction </li>
+			<li> I like web design and entrepreneurship </li>
+			<li> I am from Istanbul, Turkey 
+				<figure>
+				  <img src="http://www.cntraveler.com/shopping-style/2012/10/istanbul-turkey-culture-revival-galleries-museums-cafes-photos/_jcr_content/par/cn_contentwell/par-main/cn_colctrl/par-col2/cn_slideshow/item0.rendition.slideshowWideHorizontal.view-from-mikla-tepebasi-beyoglu-istanbul-turkey.jpg" alt="Istanbul" width="304">
+				  <figcaption>Fig1. - A view from Beyoglu in Istanbul, Turkey</figcaption>
+				</figure>
+			</li>
+			<li>
+				I like writing computer code. Here is some code I find funny:
+				<code>
+					// sometimes I believe compiler ignores all my comments  <br>
+					Exception up = new Exception(“Something is really wrong.”); <br>
+					throw up; //ha ha
+				</code>
+			</li>
+		</ol>
+
+		<h4> Random Cool Tags </h4> <wbr>
+		<var>Variable</var> <br>
+		<kbd> Keyboard input </kbd> <br> <wbr>
+		<samp> Output from a program </samp> <br>
+		<dffn> Definition term </dffn> <br>
+		<emp> This is emphasized </emp> <br> <wbr>
+		<sub> Subscript </sub> <br>
+		<sup> Superscript </sup> <br>
+		<i> Alternate voice or mood </i> <br>
+		<u> Unarticulate non-texual annotation </u> <br>
+		<mark> Text highighted for its relevance </mark> <br>
+		<ruby> Ruby annotations. Example of east asian typography: 漢 <rt> ㄏㄢˋ </rt> </ruby>
+		<bdi> Test that must be isolated from its surrounding for bidirectional text formatting </bdi>
+		<span> This text is spanned </span>
+
+
+
+		<h4> Embedded Content </h4>
+		Welcome to my iframe:		<iframe src="http://www.w3schools.com"></iframe> <br>
+		This is a video: <video width="320" height="240" controls>
+		  <source src="http://www.w3schools.com/html/movie.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+		</video> <br>
+		This is a canvas:
+		<canvas id="canvas" width="200" height="100" style="border:1px solid #1939aa;">
+		Your browser does not support the HTML5 canvas tag.
+		</canvas> <br>
+		Here is a cool use of the "math" tag (taken from tutorialspoint.com)
+		<math xmlns="http://www.w3.org/1998/Math/MathML">
+	       <mrow>
+	          <mi>A</mi>
+	          <mo>=</mo>
+	          <mfenced open="[" close="]">
+	             <mtable>
+	                <mtr>
+	                   <mtd><mi>x</mi></mtd>
+	                   <mtd><mi>y</mi></mtd>
+	                </mtr>
+	                <mtr>
+	                   <mtd><mi>z</mi></mtd>
+	                   <mtd><mi>w</mi></mtd>
+	                </mtr>
+	             </mtable>
+	         </mfenced>
+	      </mrow>
+	   </math>
+
+	   <h4> Forms </h4>
+	   <!DOCTYPE html>
+
+		<form action="" method="get">
+		What is your profession?
+		<input list="professions" name="profession">
+		<datalist id="professions">
+		  <option value="Janitor">
+		  <option value="Plumber">
+		  <option value="Super Mario">
+		  <option value="Romantic">
+		  <option value="Coder">
+		</datalist> <br> <br>
+		Employee name: <input type="text" name="usr_name">
+		Encryption: <keygen name="security">
+		<input type="submit">
+		</form> <br> <br> <br>
+		Lets user more exciting forms!
+		<form oninput="x.value=parseInt(y.value)+parseInt(z.value)">0
+			<input type="range" id="y" value="100">100 +
+			<input type="number" id="z" value="200">=
+			<output name="x" for="y z"></output>
+		</form>
+
+
+		<h4> Details </h4>
+
+		<details>  
+		  <summary>Deniz's Hobbies</summary>  
+		    <ul>  
+		      <li><strong>Swimming</strong> : I used to swim varsity, now I don't</li>  
+		      <li><strong>Windsurfing</strong> : I love them wind</li>  
+		      <li><strong>Sleeping</strong> : One of the luxuries of life </li> 
+		    </ul>  
+		</details>  
+
+		<br><br><br><br>
+
+		Below is the footer:
+		<footer>
+			<address>
+				Written by <a href="mailto:dennizk@gmail.com">Deniz Kahramaner</a>.<br> 
+				Visit us at: <a href="http://www.denizkahramaner"> www.denizkahramaner.com </a> <br>
+				Chativy<br>
+				Stanford, CA<br>
+				USA
+			</address>
+			<p> This website was built <time datetime="2013-02-06"> in the beginning of February </time>. </p>
+		</footer> 
+
+
+	</body>
+</html>
